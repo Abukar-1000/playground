@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--
+using ordered lists and roman numerals.
+ -->
+
+ <!--
+18: working with images
+use <img> tag
+ -->
+
+<!-- 19: using anchor tags to link between pages. -->
+<!--
+21: tables / using thead / tbody / tfooter to organize the table
+pros: eacch section can be targeted in html
+ -->
+
+ <!--
+html forms
+ -->
+
+ <!-- link your css styles using the styles tag in the head
+cant access the root therefore dont start a file address with /
+-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Abukar's Website ++++++++++++++++++++++</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <table>
+    <tr>
+      <td><img src="images\galaxy-astronaught.png" alt="galaxy image"></td>
+      <td>
+        <h1>Abukar Djama</h1>
+        <p><em>This is italisized.</em>This is my first <strong> <a href="https://www.youtube.com/watch?v=GQ_Ix_NAeaY">paragraph</a>.</strong></p>
+        <p>I am an aspiring machine learning and web developer, with some skills in penetration.</p>
+      </td>
+    </tr>
+  </table>
+  <body>
+    <hr>
+    <h3>Education</h3>
+    <ul>
+      <li>High School:   MTI School Of Knowledge.</li>
+      <ul>
+        <li>inside my tag!</li>
+      </ul>
+      <li>University:   IUPUI - Indianapolis</li>
+    </ul>
+    <hr >
+    <h3>My hobbies: </h3>
+    <ol>
+      <li>programming</li>
+      <ol>
+        <li>learning machine learning</li>
+        <li>front end development</li>
+        <li>back end development</li>
+        <li>having some penetration techniques</li>
+      </ol>
+      <li>plyaing <a href="https://www.youtube.com/watch?v=QxLqoO4nvXE">soccer</a></li>
+      <li>doing math</li>
+      <li>earning money</li>
+    </ol>
+    <hr >
+    <h3>Work Experiance</h3>
+    <table>
+      <thead>
+        <tr>
+          <td>Dates</td>
+          <td>Work</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2018-2019</td>
+          <td>Krispy Kreme</td>
+        </tr>
+        <tr>
+          <td>2020 - 2021</td>
+          <td>Fedex</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr >
+    <h3>Skills</h3>
+    <table>
+      <thead>
+        <tr>
+          <td>Skill</td>
+          <td>Confidence</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Programming:</td>
+          <td>➕➕➕➕</td>
+        </tr>
+        <tr>
+          <td>Coding</td>
+          <td>➕➕➕➕</td>
+        </tr>
+        <tr>
+          <td>html</td>
+          <td>➕➕➕➕</td>
+        </tr>
+        <tr>
+          <td>Css:</td>
+          <td>➕➕</td>
+        </tr>
+        <tr>
+          <td>javaScript</td>
+          <td>➕</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3>Get in <a href="contact.html">touch</a>.</h3>
+  </body>
+</html>

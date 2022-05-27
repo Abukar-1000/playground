@@ -1,0 +1,164 @@
+
+<!--
+favicon: favorite Icon
+  create 1 at favicon.cc
+  use a link to import it / re="icon"
+
+html divs
+  important for specifying the structure of the website
+    allows you to group tags structurly in html
+    a div must have css applied to it for it to do anything
+    ins the style tab in chrome tools you can see the px dimensions of elements on your screen.
+  use control and hover over an element to see its type in pestaside
+
+stuff to effect every element:
+  border: encapsulates the object like a frame
+  padding: adds space between the contents in the element and the boarder
+    only efects textlike properties and not images
+  margin: adds space between the current element and the next element
+  all this is shown in the box modle in the styles tab in the console
+
+square h 200px w 200px dif background
+
+css display properties:
+these determine how a html element will be displayed / anytelement can have its display property changed
+  block: take up the whole width of the screen / blocking out any other elemnt from being next to it. / allows yout to change the width property. ex tags [<p></p> | <h1></h1> | <div class=""></div> |all list items <li></li> | <form class></form>]
+  inline: only takes up as much space as it needs to. / cant alter width property ex: [<span></span> | <img > | <a></a>]
+  inline-block: best of both
+  none: hides the element as if it doesnt exists. doesnt alter surounding elements / ! not a display property -> visibility: hids stuff, but surrounding elements are effected by hidden element.
+
+Static and Relative Positioning:
+  html tag order dictates the layout order of the website
+  children elements sit on top of parents in html
+    if there is a h1 tag inside a div
+      div =  parent h1 = child
+      the contents of the h1 will be on top of the contents of the div
+
+display heirarchy:
+  elements inside a child
+  children elements inside a parent
+  parent elements
+
+Position property:
+  static: follow html rules, and keep the html structure flow.
+  you can use containers to layout the properties of children elements using the methods below
+
+  Relative: allows to position relative to its static positioning with some changes. cordinate props = [left,right,top,bottom]
+    cordinate changes dont effect other elements / margins
+    top: 50px = moves down 50px
+
+  absolute: allows to position relative to the parent element
+    if u r in a dive and u add right: 30px; it will move 30px in that direction inside the div
+    will efect the flow of the html page -> other elements will move.
+
+  fixed: will make its position permanent and wont move if a user scrolls on your webpage.
+    like a navigation bar / side bar on a webpage
+
+centering a div:
+  1) put (text-align: center in parent div and margin-top: 0 for all children) then all children will be centered
+    only works of the children are  inline-block or full width block (block element)
+
+  2) using margin property on the element u want to center (on child not parent) / must set to auto which centers the values at a given arguement
+    margin: 0 auto 0 auto / L&R are auto & T&P are 0 / margin: 0 auto 0 auto == margin: 0 auto
+
+font styling using Css:
+  picking the font:
+    choose a color pallet, then choose a font
+    2 font familie: sarif / san sarif   sarif have feet
+    monospace is good for code snippets
+  font-family: fontName, fontType;
+  use websafe fonts to increase ur odds of your font rendering correctly on another device
+  implement fall backs font-family: choice1,choice2,choice3, fontType;
+
+  if ypu really want to use a font -> use font embeding
+  fonts.google.com/ free fonts
+  Lorem Ipsum text generator
+
+Css Sizing:
+  font-size: 90px; equivilenmt to setting a font size to 90 in word or something
+  make sure your browser is 100% zoomed so u are seeing it correctly
+  Dynamic sizing -> users can have different preferences for sizing in their settings / must accomodate for that on the website
+      1) use %'s  instead of hard coded px values
+          100% = 16px;
+          so 90px = 562.5% since 90/16 = 562.5
+
+      2) use em values
+          em tag inside html italisizes the value
+          em value in css refers to the length of the letter M & allows you to set the size relative to it
+          1 M = 16px
+          90px = 5.625 em
+      ! the font size is inherited from the parent object and making additional changes ads on top of already inhearited values
+        this is only a problem for dynamic values
+
+            to solve this use rem instead of em -> font-size: 5.625 rem;
+floating:
+  allows u to place an image to the lest or right of a paragraph
+  allows you to wrap text around and image
+  floats object to a specified location in parent div, and all text will wrap around it on the opposite side
+  has alot of edge cases
+
+clear: opposite of float
+  makes sure the spcified location is cleared and does not allow it to wrap around anything.
+-->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Abukar Djama</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" href="../images/myFavicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="topSection">
+      <img class="topCloud" src="../images/cloud.png" alt="cloud-img">
+      <h1>I'm Abukar.</h1>
+      <h2 class = "softwareEngineerTitle">A Software Engineer.</h2>
+      <img class="bottomCloud" src="../images/cloud.png" alt="cloud-img">
+      <img class = "mountain" src="../images/mountain.png" alt="cloud-img">
+    </div>
+    <div class="middle-container">
+      <div class="aboutMe">
+        <div class="profile">
+          <h2 class = "topPTitle">Hello.</h2>
+          <img class = "image1" src="../images/meResized.jpg" alt="image">
+          <p class = "myDiscription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
+             Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa.
+             Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. </p>
+        </div>
+      </div>
+      <hr class="middle-container">
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skillRow SR1">
+          <img class="image2" src="../images/computer.png" alt="computer-image">
+          <h3 class = "skillsText">Lorem & Ipsum</h3>
+          <p class = "skillsText skillsParagraph1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
+             Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa.
+             Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+        </div>
+        <div class="skillRow SR2">
+          <img class="image3 SR2" src="../images/chillies.png" alt="chili-image">
+          <h3 class = "skillsText">Lorem Ipsum Dolor</h3>
+          <p class = "skillsText skillsParagraph2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
+            Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. </p>
+        </div>
+      </div>
+      <hr>
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+        <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+        <a class="contactBtn" type = "button" href="mailto:abukardjama1@email.com">CONTACT ME</a>
+      </div>
+    </div>
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/">Twitter</a>
+      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+      <p>© 2022 Abukar Djama.</p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,152 @@
+
+/*
+move cubes side to side
+  up & down
+ */
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: "Merriweather", sans-serif;
+  background-color: #DEE9E6;
+}
+
+h2 {
+  /* font-weight: normal; */
+  color: #2F5D62;
+  font-size: 2.5rem;
+  margin-top: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  line-height: 1;
+  color: #2F5D62;
+  font-size: 5.625em;
+  margin: 2.6rem 0 0 0;
+  font-family: "Sacramento", cursive;
+}
+h3{
+  color: #5E8B7E;
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  color: #5E8B7E;
+}
+
+p {
+  color: #40514E;
+}
+
+hr {
+  margin: 50px auto;
+  width: 50px;
+  border-top: 3px dotted #2F5D62;
+}
+.softwareEngineerTitle {
+  font-weight: normal;
+}
+.topSection {
+  margin: 0;
+  background-color: #A7C4BC;
+}
+.contactBtn {
+  background-color: #2F5D62;
+  color: #DEE9E6;
+  /* border-radius: 10%; */
+  width: 150px;
+  height: 30px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px 12px 5px 12px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  text-align: center;
+  animation: onButton infinite 1s;
+  animation-play-state: paused;
+}
+.contactBtn:hover {
+  /* animation-play-state: running; */
+  transition:
+}
+@keyframes onButton {
+  0% { width: 150px;}
+  50% {width: 175px;}
+  75% {
+    background-color: #A7C4BC;
+    width: 180px;
+  }
+  100% {
+    width: 200px;
+    background-color: #A7C4BC;
+  }
+}
+.middle-container {
+  background-color: #DEE9E6;
+  /* border: none; */
+}
+.skillRow{
+  /* 100px spaceing between each skill row */
+  margin: 100px auto 0 auto;
+  width: 50%;
+}
+.aboutMe {
+  /* background-color: #A7C4BC; */
+  margin: 0 auto 0 auto;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  width: 50%;
+}
+.profile {
+
+
+}
+.myDiscription {
+  text-align: center;
+}
+.skillsText{
+  color: #2F5D62;
+  font-weight: bold;
+  text-align: left;
+  line-height: 2;
+  /* display: inline; */
+}
+
+.SR2 {
+  display: inline-block;
+}
+.SR1 {
+  display: inline-block;
+}
+.image1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  /* float: left; */
+  /* position: relative; */
+
+  /* margin-bottom: 200px; */
+}
+.image2 {
+  width: 25%;
+  margin-right: 30px;
+  border-radius: 50%;
+  float: left;
+}
+.image3 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.topSection {
+  position: relative;
+  padding-top: 100px;
+}
+.topCloud {
+  position: absolute;
+  right: 700px;
+  top: 50px;
+}
+.bottomCloud {
+  position: absolute;
+  left: 700px;
+  bottom: 300px;
+}

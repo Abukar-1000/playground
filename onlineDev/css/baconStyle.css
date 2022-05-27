@@ -1,0 +1,31 @@
+body {
+  background-color: #413F42;
+}
+
+h1 {
+  color: red;
+  background-color: #7F8487;
+}
+
+img {
+  background-color: red;
+}
+
+.bacconTitle:hover {
+  width: 100%;
+  background-color: green;
+  animation: backgroundColorChange .8s infinite;
+  animation: revertBackgroundColorChange .5s infinite;
+}
+
+@keyframes backgroundColorChange {
+  from {background-color: green;}
+  to {background-color: yellow;}
+}
+
+@keyframes revertBackgroundColorChange {
+  from {background-color: yellow;}
+  to {background-color: green;}
+  from {width:100%;}
+  to {width:10%;}
+}
