@@ -1,0 +1,113 @@
+:root {
+    --assignmentGradient: linear-gradient(to left,
+    #F0134D,
+    #E32249,
+    #DB3056);
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Aboreto', cursive;
+}
+
+.templateStyle {
+    padding: 5%;
+    background-color: #F17362;
+    /* background-image: var(--shadeGradient); */
+    /* background-size: 500%; */
+    margin: 0;
+
+    font-size: 2rem;
+    color: white;
+    /* animation: gradientAnimation 5s infinite alternate; */
+}
+
+footer.templateStyle {
+    margin-top: auto;
+    padding: 5%;
+    background-color: #F17362;
+
+    font-size: 2rem;
+    color: white;
+}
+
+#assignments {
+    text-align: center;
+    padding: 2%;
+}
+
+/* 
+centers all assignments and makes them into cards
+spaces each assignment 1% on the bottom
+applies gradient animation while it is hovered over 
+removes premade css styling
+attaches an animation and pauses the animation
+*/
+
+li {
+    margin: 0 auto 1%;
+    padding: 1% 0;
+    width: 8%;
+    height: 4%;
+    border-radius: .2rem;
+    /* text */
+    list-style-type: none;
+    background-color: #E32249;
+    background-image: var(--assignmentGradient);
+    background-size: 400%;
+    font-size: 1.2rem;
+    animation: gradientAnimation 1s infinite alternate-reverse paused;
+}
+a {
+    text-decoration: none;
+    color: black;
+    width: 8%;
+    height: 4%;
+}
+
+#assignment~ul {
+    margin: 0 auto;
+}
+
+@keyframes gradientAnimation {
+    50% {
+        background-position: left;
+    }
+    /* 60% {
+        background-position: left;
+    }
+    80% {
+        background-position: center;
+    }
+    90% {
+        background-position: right;
+    } */
+    100% {
+        /* background-size: 200%; */
+        background-position: right;
+    }
+}
+
+/* effects */
+li:hover {
+    animation-play-state: running;
+    height: 40%;
+}
+/* shade element on each assignment */
+/* .shade {
+    background-image: ;
+} */
+
+.card {
+    width: 20%;
+    height: 10%;
+}
+
+.diamond1 {
+    width: 7%;
+    height: 11%;
+    color: #DB3056;
+}

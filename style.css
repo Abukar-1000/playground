@@ -1,0 +1,25 @@
+.card {
+    width: 100%;
+    height: 100%;
+}
+
+.diamond1 {
+    width: 5%;
+    height: 11%;
+    background-color: #DB3056;
+    transform: skew(0,40deg);
+    /* margin: 10%; */
+    float: left;
+}
+.diamond2 {
+    width: 5%;
+    height: 11%;
+    background-color: blue;
+    /* border-radius: 10px; */
+    transform: skew(0,40deg);
+    /* transform: rotate3d(1,1,1,45deg); */
+    float: left;
+    margin-left: .1%;
+    margin-top: 5%;
+}
+
