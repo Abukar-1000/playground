@@ -1,0 +1,9 @@
+[package]
+target = "src/crash.rs"
+name = "crash"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+sysinfo = "0.26.6"
