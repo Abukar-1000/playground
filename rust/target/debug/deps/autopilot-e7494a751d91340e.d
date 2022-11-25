@@ -1,0 +1,12 @@
+c:\Users\Abuka\OneDrive\Desktop\expressProjects\playground\rust\target\debug\deps\autopilot-e7494a751d91340e.rmeta: C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\autopilot-0.4.0\src\lib.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\autopilot-0.4.0\src\alert.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\autopilot-0.4.0\src\bitmap.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\autopilot-0.4.0\src\geometry.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\autopilot-0.4.0\src\internal.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\autopilot-0.4.0\src\key.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\autopilot-0.4.0\src\mouse.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\autopilot-0.4.0\src\screen.rs
+
+c:\Users\Abuka\OneDrive\Desktop\expressProjects\playground\rust\target\debug\deps\autopilot-e7494a751d91340e.d: C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\autopilot-0.4.0\src\lib.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\autopilot-0.4.0\src\alert.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\autopilot-0.4.0\src\bitmap.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\autopilot-0.4.0\src\geometry.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\autopilot-0.4.0\src\internal.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\autopilot-0.4.0\src\key.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\autopilot-0.4.0\src\mouse.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\autopilot-0.4.0\src\screen.rs
+
+C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\autopilot-0.4.0\src\lib.rs:
+C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\autopilot-0.4.0\src\alert.rs:
+C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\autopilot-0.4.0\src\bitmap.rs:
+C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\autopilot-0.4.0\src\geometry.rs:
+C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\autopilot-0.4.0\src\internal.rs:
+C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\autopilot-0.4.0\src\key.rs:
+C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\autopilot-0.4.0\src\mouse.rs:
+C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\autopilot-0.4.0\src\screen.rs:

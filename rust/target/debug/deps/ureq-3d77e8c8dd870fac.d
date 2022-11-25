@@ -1,0 +1,21 @@
+c:\Users\Abuka\OneDrive\Desktop\expressProjects\playground\rust\target\debug\deps\ureq-3d77e8c8dd870fac.rmeta: C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\lib.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\agent.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\body.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\error.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\header.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\middleware.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\pool.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\proxy.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\request.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\resolve.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\response.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\stream.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\unit.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\rtls.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\testserver.rs
+
+c:\Users\Abuka\OneDrive\Desktop\expressProjects\playground\rust\target\debug\deps\ureq-3d77e8c8dd870fac.d: C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\lib.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\agent.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\body.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\error.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\header.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\middleware.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\pool.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\proxy.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\request.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\resolve.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\response.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\stream.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\unit.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\rtls.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\testserver.rs
+
+C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\lib.rs:
+C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\agent.rs:
+C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\body.rs:
+C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\error.rs:
+C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\header.rs:
+C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\middleware.rs:
+C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\pool.rs:
+C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\proxy.rs:
+C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\request.rs:
+C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\resolve.rs:
+C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\response.rs:
+C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\stream.rs:
+C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\unit.rs:
+C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\rtls.rs:
+C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\ureq-2.5.0\src\testserver.rs:
+
+# env-dep:CARGO_PKG_VERSION=2.5.0

@@ -1,71 +1,28 @@
-#include <windows.h>
-#include <stdio.h>
-#include <tchar.h>
-#include <psapi.h>
+#include <iostream>
 
-// To ensure correct resolution of symbols, add Psapi.lib to TARGETLIBS
-// and compile with -DPSAPI_VERSION=1
+int fibRec(int n){
 
-void PrintProcessNameAndID( DWORD processID )
-{
-    TCHAR szProcessName[MAX_PATH] = TEXT("<unknown>");
-
-    // Get a handle to the process.
-
-    HANDLE hProcess = OpenProcess( PROCESS_QUERY_INFORMATION |
-                                   PROCESS_VM_READ,
-                                   FALSE, processID );
-
-    // Get the process name.
-
-    if (NULL != hProcess )
-    {
-        HMODULE hMod;
-        DWORD cbNeeded;
-
-        if ( EnumProcessModules( hProcess, &hMod, sizeof(hMod), 
-             &cbNeeded) )
-        {
-            GetModuleBaseName( hProcess, hMod, szProcessName, 
-                               sizeof(szProcessName)/sizeof(TCHAR) );
-        }
+    if (n <= 2){
+        return 1;
+    } else {
+        return fibRec(n - 1) + fibRec(n -2);
     }
-
-    // Print the process name and identifier.
-
-    _tprintf( TEXT("%s  (PID: %u)\n"), szProcessName, processID );
-
-    // Release the handle to the process.
-
-    CloseHandle( hProcess );
 }
 
-int main( void )
-{
-    // Get the list of process identifiers.
+int main() {
+    // solve fib itteratively
 
-    DWORD aProcesses[1024], cbNeeded, cProcesses;
-    unsigned int i;
-
-    if ( !EnumProcesses( aProcesses, sizeof(aProcesses), &cbNeeded ) )
-    {
-        return 1;
+    int num1 = 0;
+    int num2 = 1;
+    int container = 0;
+    int nThIndex = 10;
+    for (int i = 1; i < nThIndex; ++i){
+        container = num2;
+        num2 += num1;
+        num1 = container;
+        std::cout << i <<") loop num1 is " << container << " num2 is " << num2 << "\n";
     }
-
-
-    // Calculate how many process identifiers were returned.
-
-    cProcesses = cbNeeded / sizeof(DWORD);
-
-    // Print the name and process identifier for each process.
-
-    for ( i = 0; i < cProcesses; i++ )
-    {
-        if( aProcesses[i] != 0 )
-        {
-            PrintProcessNameAndID( aProcesses[i] );
-        }
-    }
-
+    std::cout << nThIndex << "th Fib number is " << num2 << "\n";
+    std::cout << nThIndex << "th recursive Fib number is " << fibRec(nThIndex);
     return 0;
 }

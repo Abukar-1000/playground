@@ -1,0 +1,10 @@
+C:\Users\Abuka\OneDrive\Desktop\expressProjects\playground\rust\target\debug\deps\random_number-6e43f1924693a9b8.rmeta: C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\random-number-0.1.8\src\lib.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\random-number-0.1.8\src\bounded.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\random-number-0.1.8\src\random_fill_functions.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\random-number-0.1.8\src\random_functions.rs
+
+C:\Users\Abuka\OneDrive\Desktop\expressProjects\playground\rust\target\debug\deps\librandom_number-6e43f1924693a9b8.rlib: C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\random-number-0.1.8\src\lib.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\random-number-0.1.8\src\bounded.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\random-number-0.1.8\src\random_fill_functions.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\random-number-0.1.8\src\random_functions.rs
+
+C:\Users\Abuka\OneDrive\Desktop\expressProjects\playground\rust\target\debug\deps\random_number-6e43f1924693a9b8.d: C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\random-number-0.1.8\src\lib.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\random-number-0.1.8\src\bounded.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\random-number-0.1.8\src\random_fill_functions.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\random-number-0.1.8\src\random_functions.rs
+
+C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\random-number-0.1.8\src\lib.rs:
+C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\random-number-0.1.8\src\bounded.rs:
+C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\random-number-0.1.8\src\random_fill_functions.rs:
+C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\random-number-0.1.8\src\random_functions.rs:

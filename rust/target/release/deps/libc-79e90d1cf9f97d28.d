@@ -1,0 +1,11 @@
+C:\Users\Abuka\OneDrive\Desktop\expressProjects\playground\rust\target\release\deps\libc-79e90d1cf9f97d28.rmeta: C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.137\src\lib.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.137\src\macros.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.137\src\fixed_width_ints.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.137\src\windows\mod.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.137\src\windows\msvc\mod.rs
+
+C:\Users\Abuka\OneDrive\Desktop\expressProjects\playground\rust\target\release\deps\liblibc-79e90d1cf9f97d28.rlib: C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.137\src\lib.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.137\src\macros.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.137\src\fixed_width_ints.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.137\src\windows\mod.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.137\src\windows\msvc\mod.rs
+
+C:\Users\Abuka\OneDrive\Desktop\expressProjects\playground\rust\target\release\deps\libc-79e90d1cf9f97d28.d: C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.137\src\lib.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.137\src\macros.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.137\src\fixed_width_ints.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.137\src\windows\mod.rs C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.137\src\windows\msvc\mod.rs
+
+C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.137\src\lib.rs:
+C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.137\src\macros.rs:
+C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.137\src\fixed_width_ints.rs:
+C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.137\src\windows\mod.rs:
+C:\Users\Abuka\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.137\src\windows\msvc\mod.rs:
