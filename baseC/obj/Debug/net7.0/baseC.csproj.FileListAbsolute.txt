@@ -1,0 +1,15 @@
+C:\Users\Abuka\OneDrive\Desktop\expressProjects\playground\BaseC\obj\Debug\net7.0\baseC.csproj.AssemblyReference.cache
+C:\Users\Abuka\OneDrive\Desktop\expressProjects\playground\BaseC\obj\Debug\net7.0\baseC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abuka\OneDrive\Desktop\expressProjects\playground\BaseC\obj\Debug\net7.0\baseC.AssemblyInfoInputs.cache
+C:\Users\Abuka\OneDrive\Desktop\expressProjects\playground\BaseC\obj\Debug\net7.0\baseC.AssemblyInfo.cs
+C:\Users\Abuka\OneDrive\Desktop\expressProjects\playground\BaseC\obj\Debug\net7.0\baseC.csproj.CoreCompileInputs.cache
+C:\Users\Abuka\OneDrive\Desktop\expressProjects\playground\BaseC\bin\Debug\net7.0\baseC.exe
+C:\Users\Abuka\OneDrive\Desktop\expressProjects\playground\BaseC\bin\Debug\net7.0\baseC.deps.json
+C:\Users\Abuka\OneDrive\Desktop\expressProjects\playground\BaseC\bin\Debug\net7.0\baseC.runtimeconfig.json
+C:\Users\Abuka\OneDrive\Desktop\expressProjects\playground\BaseC\bin\Debug\net7.0\baseC.dll
+C:\Users\Abuka\OneDrive\Desktop\expressProjects\playground\BaseC\bin\Debug\net7.0\baseC.pdb
+C:\Users\Abuka\OneDrive\Desktop\expressProjects\playground\BaseC\obj\Debug\net7.0\baseC.dll
+C:\Users\Abuka\OneDrive\Desktop\expressProjects\playground\BaseC\obj\Debug\net7.0\refint\baseC.dll
+C:\Users\Abuka\OneDrive\Desktop\expressProjects\playground\BaseC\obj\Debug\net7.0\baseC.pdb
+C:\Users\Abuka\OneDrive\Desktop\expressProjects\playground\BaseC\obj\Debug\net7.0\baseC.genruntimeconfig.cache
+C:\Users\Abuka\OneDrive\Desktop\expressProjects\playground\BaseC\obj\Debug\net7.0\ref\baseC.dll
