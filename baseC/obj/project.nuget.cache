@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "yqMhhNT+bktc3eN1eZ8ijnZa5o3G5BkFM3J10af28axSd2Wyqq+HtXvg8gs4gQ47vwT1gwYY1V/jFjNHctEFdA==",
+  "dgSpecHash": "X11RvRxSLee5B+EiFus+Gml/orMYLrA9JfMPnM+ttjOvVcITxkkr762ntnq48r3GjVi5WVudD5oqNV/Wb3/Udw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Abuka\\OneDrive\\Desktop\\expressProjects\\playground\\BaseC\\baseC.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Abuka\\OneDrive\\Desktop\\expressProjects\\playground\\baseC\\baseC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Abuka\\.nuget\\packages\\json.net\\1.0.33\\json.net.1.0.33.nupkg.sha512",
+    "C:\\Users\\Abuka\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

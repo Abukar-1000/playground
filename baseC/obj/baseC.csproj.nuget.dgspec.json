@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Abuka\\OneDrive\\Desktop\\expressProjects\\playground\\BaseC\\baseC.csproj": {}
+    "C:\\Users\\Abuka\\OneDrive\\Desktop\\expressProjects\\playground\\baseC\\baseC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Abuka\\OneDrive\\Desktop\\expressProjects\\playground\\BaseC\\baseC.csproj": {
+    "C:\\Users\\Abuka\\OneDrive\\Desktop\\expressProjects\\playground\\baseC\\baseC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abuka\\OneDrive\\Desktop\\expressProjects\\playground\\BaseC\\baseC.csproj",
+        "projectUniqueName": "C:\\Users\\Abuka\\OneDrive\\Desktop\\expressProjects\\playground\\baseC\\baseC.csproj",
         "projectName": "baseC",
-        "projectPath": "C:\\Users\\Abuka\\OneDrive\\Desktop\\expressProjects\\playground\\BaseC\\baseC.csproj",
+        "projectPath": "C:\\Users\\Abuka\\OneDrive\\Desktop\\expressProjects\\playground\\baseC\\baseC.csproj",
         "packagesPath": "C:\\Users\\Abuka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abuka\\OneDrive\\Desktop\\expressProjects\\playground\\BaseC\\obj\\",
+        "outputPath": "C:\\Users\\Abuka\\OneDrive\\Desktop\\expressProjects\\playground\\baseC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Abuka\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,16 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Json.NET": {
+              "target": "Package",
+              "version": "[1.0.33, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

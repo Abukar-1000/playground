@@ -13,3 +13,6 @@ C:\Users\Abuka\OneDrive\Desktop\expressProjects\playground\BaseC\obj\Debug\net7.
 C:\Users\Abuka\OneDrive\Desktop\expressProjects\playground\BaseC\obj\Debug\net7.0\baseC.pdb
 C:\Users\Abuka\OneDrive\Desktop\expressProjects\playground\BaseC\obj\Debug\net7.0\baseC.genruntimeconfig.cache
 C:\Users\Abuka\OneDrive\Desktop\expressProjects\playground\BaseC\obj\Debug\net7.0\ref\baseC.dll
+C:\Users\Abuka\OneDrive\Desktop\expressProjects\playground\baseC\bin\Debug\net7.0\Json.Net.dll
+C:\Users\Abuka\OneDrive\Desktop\expressProjects\playground\baseC\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Abuka\OneDrive\Desktop\expressProjects\playground\baseC\obj\Debug\net7.0\baseC.csproj.CopyComplete

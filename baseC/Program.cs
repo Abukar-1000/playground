@@ -1,24 +1,26 @@
 ﻿using System;
 using System.Net;
-using System.Text.Json;
-
+using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
+using Json.Net;
 
 namespace baseC
 {
     public class JsonResponse
     {
-        public JsonResponse()
-        {
-
-        }
+        public string vitality = "";
+        public string response = "";
     }
+
     public class Program
     {
         public static void Main(string[] args) 
         {
             string strJson = Program.makeRequest("https://stormy-jumper.cyclic.app/F99");
-            dynamic jsonResponse = JObject.Parse("{number:1000, str:'string', array: [1,2,3,4,5,6]}");;
-            Console.WriteLine("Hi there");
+            JsonResponse product = new JsonResponse();
+            JsonResponse deserializedProduct = JsonConvert.DeserializeObject<JsonResponse>(strJson);
+            // dynamic jsonResponse = new JObject();
+            Console.WriteLine("Vitality: " + deserializedProduct.vitality + "\nResponse: " + deserializedProduct.response);
         }
         public static string makeRequest(string url)
         {
@@ -29,7 +31,6 @@ namespace baseC
             Stream stream = response.GetResponseStream();
             StreamReader reader = new StreamReader(stream);
             result = reader.ReadToEnd();
-            Console.WriteLine("data was " + result);
             return result;
         }
     }
